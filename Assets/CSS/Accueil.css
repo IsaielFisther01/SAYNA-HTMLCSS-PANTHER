@@ -20,7 +20,6 @@ aside .pagemenu {
     width: 50%;
 }
 
-
 aside ul li {
     margin-top: 5%;
 }
@@ -30,8 +29,6 @@ aside .réseaux-sociaux {
     margin-left: -30%;
 }
 /* styles pour les sections */
-
-
 
 section[class="Introduction"] p {
     width: 32vw;
@@ -53,9 +50,7 @@ section[class="Introduction"] {
     margin-top: -10%;
 }
 
-/*
-styles des descriptions de la section
-*/
+/*styles des descriptions de la section*/
 section[class="présentation"] {
     width: 100%;
     display: grid;
@@ -149,6 +144,7 @@ section[class='section2'] .colonne {
 section[class='section2'] .colonne .txt {
     grid-column: 1/2;
     padding-left: 10%;
+    text-align: justify;
 }
 
 section[class='section2'] .colonne .profile {
@@ -157,9 +153,8 @@ section[class='section2'] .colonne .profile {
     grid-template-rows: 1fr 4fr 1fr 4fr;
 }
 
-section[class='section2'] .text {
-    text-align: justify;
-}
+
+
 
 /*style au niveau du profil */
 section[class='section2'] .colonne .profile .card{

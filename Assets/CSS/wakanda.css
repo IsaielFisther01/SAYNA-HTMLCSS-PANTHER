@@ -3,9 +3,6 @@ h1 {
     font-family: 'BEYNO';
 }
 
-p {
-    text-align: ;
-}
 
 /* styles de la section  wakanda forver */
 
@@ -37,7 +34,7 @@ section[class="accueil"] p {
 
 section[class="content"] .Début {
     display: grid;
-    /*  with 4 columns (0.8*screenWidth, 3.5*screenWidth, screenWidth, 3.5*screenWidth)  */
+    text-align: justify;
     grid-template-columns:8vw 35vw 10vw 35vw;
 }
 

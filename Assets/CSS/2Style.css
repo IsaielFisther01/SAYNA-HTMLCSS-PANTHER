@@ -1,25 +1,27 @@
 /*Ensemble des styles pour toutes les pages */
 /*Styles des polices */
+
+/*BEYNO */
 @font-face {
-    src: url('../fonts/BEYNO/BEYNO.ttf');
+    src: url(../Fonts/Police/FontsFree-Net-BEYNO.ttf);
     font-family: 'BEYNO';
 }
 
 /* Cantarell */
 @font-face {
-    src: url('../fonts/Cantarell/Cantarell-Regular.ttf');
+    src: url(../Fonts/Police/Cantarell-Regular.ttf);
     font-family: 'Cantarell';
 }
 
 /* Panthera */
 @font-face {
-    src: url('../fonts/Panthera/PantheraRegular-MVZ9J.ttf');
+    src: url(../Fonts/Police/PantheraRegular-MVZ9J.ttf);
     font-family: 'Panthera';
 }
 
 /* wakanda forever */
 @font-face {
-    src: url('../fonts/wakanda_forever/WakandaForever-Regular.ttf');
+    src: url(../Fonts/Police/WakandaForever-Regular.ttf);
     font-family: 'Wakanda forever';
 }
 
@@ -46,20 +48,20 @@ input[type="text"] {
 /* Titre */
 h1 {
     font-family: 'Panthera';
-    font-size: 4.25em; /* font-size to 4.25*pricipal text-size (4.25*16= 68px) */
+    font-size: 4.25em; 
     color: #9E91B7;
 }
 
 h2 {
     font-family: 'BEYNO';
-    font-size: 2em; /* font-size to 2*pricipal text-size (2*16= 32px) */
+    font-size: 2em; 
     color: #9E91B7;
 }
 
 h2[class='wakanda-forever'] {
     font-family: 'Wakanda forever';
     font-size: 2.68em;
-    letter-spacing: 0.15em; /* 0.15*16=2.4px */
+    letter-spacing: 0.15em; 
 }
 
 h3 {
